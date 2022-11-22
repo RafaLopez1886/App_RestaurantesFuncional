@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap_css/bootstrap.min.css" />
+    <link rel="stylesheet" href="own_css/style.css">
+    <title>Search</title>
+</head>
+
+<body>
+    <div id="menu">
+        <!--Menú superior-->
+        <div class="conteiner">
+            <nav class="navbar navbar-expand-lg navbar-light bg-success.bg-gradient"
+                style="background: linear-gradient(to right, #b2e1ff, #ffffff)">
+                <div class="container-fluid">
+                    <h1>
+                        <a class="navbar-brand" href="restaurants.html">AppRestaurants</a>
+                    </h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Directory</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="restaurants.html">Restaurants</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="search.html">Search</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="new.html">New</a>
+                            </li>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <p>
+
+    <div id="tituloRestaurantes">
+        <h1>Crear Restaurante</h1>
+    </div>
+
+    <div id="formularioNew">
+        <div class="container">
+            <form>
+                <div class="mb-3">
+                    <label for="insertNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="insertDescripcion" class="form-label">Descripción</label>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="insertDireccion" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="direccion">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Imagen URL</label>
+                    <input type="url" class="form-control" id="urlImage">
+                </div>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </form>
+        </div>
+    </div>
+    <!--Formulario-->
+    <main>
+        <div id="formulario">
+
+        </div>
+    </main>
+
+    <script src="js/bootstrap.min.js"></script>
+    </main>
+</body>
+
+</html>
